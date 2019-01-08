@@ -5,6 +5,7 @@ $(document).ready(function() {
   var tasksContainer = $('[data-tasks-container]');
 
   // init
+
   getAllTasks();
 
   function createElement(data) {
